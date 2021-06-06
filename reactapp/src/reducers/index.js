@@ -12,8 +12,7 @@ export const reducer = (state = INITIAL_STATE, action) => {
         case 'SEBETE_EKLE':
             return { ...state, cart: [...state.cart, action.payload] }
 
-
         default: return state
-           
+
     }
 }
